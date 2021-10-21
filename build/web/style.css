@@ -1,0 +1,145 @@
+* {box-sizing: border-box;}
+
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.index {
+    background: url(IMG/roman.jpg) no-repeat;
+    background-size: 100% ;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+
+}
+
+.header a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.header a.active {
+    background-color: #000;
+    color: white;
+}
+.title{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    background: #333;
+    padding: 12px;
+    margin-bottom: 80px;
+}
+
+.header-right {
+    float: left;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
+}
+
+section {
+    width: 50%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+input[type=text], input[type=password], input[type=email]{
+    width: 100%;
+    padding: 10px;
+    margin: 12px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    font-size: 18px;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+input[type=search]{
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    font-size: 18px;
+
+}
+
+.submit{
+    cursor: pointer;
+    color: white;
+    background-color: #333;
+    padding:  12px 10px;
+    border: none;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.submit:hover{
+    opacity: 1;
+}
+
+.form_busca{
+    width: 50%;
+    display: flex;
+    margin:auto;
+}
+
+input[type=search]{
+    height: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.submitP{
+    font-size: 18px;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    background-color: #333;
+    border: none;
+    opacity: 0.9;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.submitP:hover{
+    opacity: 1;
+}
+
+
+
+
